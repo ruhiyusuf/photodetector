@@ -1,0 +1,63 @@
+(ExpressProject "OPA657"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\opa657.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\opa657.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa657-pspicefiles\ac\opa657_ac.sim"
+        (DisplayName "AC-OPA657_AC")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa657-pspicefiles\dc\opa657_dc.sim"
+        (DisplayName "DC-OPA657_DC")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa657-pspicefiles\transient\opa657_trans.sim"
+        (DisplayName "Transient-OPA657_TRANS")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\opa657-pspicefiles\ac\opa657_ac.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\opa657.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\opa657.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (OPA657
+      (FullPartName "OPA657.Normal")
+      (LibraryName
+         "C:\USERS\X0215666.ENT\DESKTOP\HSOP\24NOV\LATEST\RELEASE_SANKALP\PSPICE\OPA657_PSPICE_AIO\OPA657.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -5 -30 0 200 0 442"))
+      (Tab 0))))
