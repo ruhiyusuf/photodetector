@@ -1,0 +1,23 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -111 -50 35 63
+WINDOW 0 -38 -49 Bottom 2
+WINDOW 3 -37 63 Top 2
+SYMATTR Value LMH6624
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\ruhiy\projects\photodetector\snom130\LMH6624\LMH6624.MOD
+PIN -112 0 LEFT 8
+PINATTR PinName +IN
+PINATTR SpiceOrder 1
+PIN -112 -32 LEFT 8
+PINATTR PinName -IN
+PINATTR SpiceOrder 2
+PIN 32 -32 RIGHT 8
+PINATTR PinName +V
+PINATTR SpiceOrder 3
+PIN -112 32 LEFT 8
+PINATTR PinName -V
+PINATTR SpiceOrder 4
+PIN 32 32 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5

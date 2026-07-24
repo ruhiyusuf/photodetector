@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -161 -33 48 38
+WINDOW 0 -57 -32 Bottom 2
+WINDOW 3 -60 38 Top 2
+SYMATTR Value LM7805
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\ruhiy\projects\photodetector\regulators.lib.txt
+PIN -160 0 LEFT 8
+PINATTR PinName (1) In
+PINATTR SpiceOrder 1
+PIN 48 -16 RIGHT 8
+PINATTR PinName (2) GND
+PINATTR SpiceOrder 2
+PIN 48 16 RIGHT 8
+PINATTR PinName (3) Out
+PINATTR SpiceOrder 3

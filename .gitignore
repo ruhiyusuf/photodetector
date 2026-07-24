@@ -1,0 +1,25 @@
+# LTspice generated outputs
+*.raw
+*.log
+*.net
+*.plt
+*.fft
+
+# Backup files
+*.bak
+*.asc~
+*.asy~
+
+# Windows
+*.lnk
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
