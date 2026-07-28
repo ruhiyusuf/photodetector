@@ -5,7 +5,7 @@ WINDOW 0 0 -24 Bottom 2
 WINDOW 3 0 24 Top 2
 SYMATTR Prefix X
 SYMATTR Value DI_BZX84C3V3
-SYMATTR ModelFile C:\Users\ruhiy\Downloads\BZX84C3V3.spice.txt
+SYMATTR ModelFile BZX84C3V3.spice.txt
 PIN -32 0 LEFT 8
 PINATTR PinName A
 PINATTR SpiceOrder 1

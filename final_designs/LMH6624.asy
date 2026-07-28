@@ -5,7 +5,7 @@ WINDOW 0 -38 -49 Bottom 2
 WINDOW 3 -37 63 Top 2
 SYMATTR Value LMH6624
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\ruhiy\projects\photodetector\snom130\LMH6624\LMH6624.MOD
+SYMATTR ModelFile LMH6624.MOD
 PIN -112 0 LEFT 8
 PINATTR PinName +IN
 PINATTR SpiceOrder 1

@@ -5,7 +5,7 @@ WINDOW 0 -57 -32 Bottom 2
 WINDOW 3 -60 38 Top 2
 SYMATTR Value LM7805
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\ruhiy\projects\photodetector\regulators.lib.txt
+SYMATTR ModelFile regulators.lib
 PIN -160 0 LEFT 8
 PINATTR PinName (1) In
 PINATTR SpiceOrder 1
